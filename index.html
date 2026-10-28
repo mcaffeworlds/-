@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover our products, services and support options.">
+  <title>Your Brand | Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Your Brand home">
+      <span class="brand-mark">Y</span><span>YOUR BRAND</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="#features">Features</a>
+      <a href="contact.html">Contact Us</a>
+      <a class="nav-cta" href="contact.html">Get in touch</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> SIMPLE. SECURE. RELIABLE.</span>
+        <h1>A smarter way to <span>protect your digital world.</span></h1>
+        <p class="hero-lead">Introduce your product or service with a clear message that tells visitors what you do and why it matters.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="contact.html">Contact our team <span aria-hidden="true">→</span></a>
+          <a class="button button-secondary" href="#features">Explore features</a>
+        </div>
+        <div class="trust-note"><span class="trust-icon">✓</span> Helpful support · Clear information · Easy setup</div>
+      </div>
+      <div class="hero-contact-card">
+        <div class="hero-form-heading">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2>Contact Us</h2>
+          <p>Tell us what you need. Our team will get back to you.</p>
+        </div>
+        <form id="contact-form" class="hero-contact-form">
+          <div class="form-row"><label for="name">Full name *</label><input id="name" name="name" autocomplete="name" placeholder="Enter your name" required></div>
+          <div class="form-row"><label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+          <div class="form-row"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+91"></div>
+          <div class="form-row"><label for="message">Message *</label><textarea id="message" name="message" rows="3" placeholder="How can we help you?" required></textarea></div>
+          <input type="hidden" name="subject" value="Website enquiry">
+          <button class="button button-primary submit-button" type="submit">Send enquiry <span aria-hidden="true">→</span></button>
+          <p class="form-status" id="form-status" role="status">This starter form opens your email app. Connect a form service for direct website submissions.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="feature-section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">WHY CHOOSE US</span>
+        <h2>Everything starts with a better experience.</h2>
+        <p>Replace these sample features with the benefits your brand actually provides.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-icon">◈</span><h3>Reliable protection</h3><p>Explain how your product, service or team helps customers with confidence.</p><a href="contact.html">Learn more <span>→</span></a></article>
+        <article class="feature-card"><span class="feature-icon">ϟ</span><h3>Fast and simple</h3><p>Highlight the practical benefit that makes your offer easy to use.</p><a href="contact.html">Learn more <span>→</span></a></article>
+        <article class="feature-card"><span class="feature-icon">◎</span><h3>Personal support</h3><p>Make it easy for visitors to ask questions and get help from your team.</p><a href="contact.html">Contact us <span>→</span></a></article>
+        <article class="feature-card"><span class="feature-icon">↗</span><h3>Easy to get started</h3><p>Give visitors a clear next step, without clutter or confusing navigation.</p><a href="contact.html">Get started <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="cta-strip">
+      <div><span class="eyebrow">HAVE A QUESTION?</span><h2>Let's talk about what you need.</h2><p>Our team is ready to hear from you.</p></div>
+      <a class="button button-light" href="contact.html">Contact us <span>→</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">Y</span><span>YOUR BRAND</span></a>
+    <p>© <span data-year></span> Your Brand. All rights reserved.</p>
+    <div><a href="contact.html">Contact</a><a href="#" data-privacy>Privacy</a><a href="#" data-terms>Terms</a></div>
+  </footer>
+
+  <button class="chat-launcher" id="chat-launcher" aria-label="Open live chat"><span class="chat-bubble-icon">✉</span><span>Live Chat</span></button>
+  <section class="chat-panel" id="chat-panel" aria-label="Live chat" hidden>
+    <div class="chat-header"><div><strong>Chat with us</strong><small>We'd be happy to help</small></div><button id="chat-close" aria-label="Close chat">×</button></div>
+    <div class="chat-messages" id="chat-messages"><div class="chat-message agent">Hi there! 👋 How can we help you today?</div></div>
+    <form id="chat-form" class="chat-form"><label class="sr-only" for="chat-input">Your message</label><input id="chat-input" placeholder="Type your message..." maxlength="500" required><button aria-label="Send message">➤</button></form>
+    <p class="chat-note">Demo chat: messages open your email app until a live-chat provider is connected.</p>
+  </section>
+  <script src="script.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6ae1ae9af6f5483470c15702/1k60p43fe';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
